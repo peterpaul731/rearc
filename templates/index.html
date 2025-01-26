@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page</title>
+
+    <style>
+        /* Body styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header style */
+        h1 {
+            text-align: center;
+            color: #333;
+            background-color: #4CAF50;
+            padding: 20px;
+            margin: 0;
+        }
+
+        /* Paragraph style */
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+            margin: 20px;
+            text-align: left;
+        }
+
+        /* Links style */
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Links hover effect */
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+        /* List styles */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        li {
+            display: inline-block;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body> 
+    <h1>REARC Assessment</h1>
+
+    <p> 1. Created a local only GIT Repository and commit all of the  work to it.</p>
+    <p> 2. Created the app using Flask. Developed the index.html with specific links to check Applicaton, Secret_word, Load balancer and TLS </p>
+    <p> 3. Created a Dockerfile with instructions to create the App. Used node as the base image. Version node:16 </p>
+    <p> 4. Deployed the app in a ECR Docker container </p>
+    <p> 5. Used Terraform (IAC) the deploy the code using terraform </ul>
+          <ul> - Created a self signed certificate for TLS check </ul>
+	  <ul> - Used Created a docker container in EC2 instance </ul>
+	  <ul>  - Log on to ECR, pull the image and created the container </ul> </p>
+    <p> 6. Created the Load balancer for app on port 5000 with backend as EC2 instances and Self Signed Certifate.</p>
+    <p> 7. Created NSG inbound rule for EC2 instance to allow access on Port 5000:</p></p>
+
+    <p>Test Links:</p>
+    <ul>
+        <li><a href="/docker">Docker Check</a></li>
+        <li><a href="/secret_word">Secret Word Check</a></li>
+        <li><a href="/loadbalanced">Load Balancer Check</a></li>
+        <li><a href="/tls">TLS Check</a></li>
+    </ul>
+</body>
+</html>
